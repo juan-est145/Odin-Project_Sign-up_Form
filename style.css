@@ -4,3 +4,20 @@ body
 	height: 100vh;
 	display: flex;
 }
+
+.img-content
+{
+	width: 30vw;
+	height: 100%;
+}
+
+.form-content
+{
+	width: 70vw;
+}
+
+.img-content > img
+{
+	width: 100%;
+	height: 100%;
+}
