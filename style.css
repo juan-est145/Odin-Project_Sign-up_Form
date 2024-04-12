@@ -37,16 +37,16 @@ body
 
 .img-content > div img
 {
-	width: clamp(3rem, 5rem, 10vw);
-	/*width: 5em;*/
+	width: 5em;
+	width: clamp(3em, 5em, 10vw);
 }
 
 .img-content > div p
 {
 	color: white;
 	font-family: "Norse Bold", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	/*font-size: 5rem;*/
-	font-size: clamp(3em, 5em, 10vw);
+	font-size: 5rem;
+	font-size: clamp(3rem, 5rem, 10vw);
 	margin: 0;
 }
 
