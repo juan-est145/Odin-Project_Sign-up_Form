@@ -98,18 +98,26 @@ fieldset > div
 .Lower_form
 {
 	--main_color: 188, 64%, 35%, 1;
-	position: relative;
-	left: 2rem;
-	top: 2rem;
+	margin-left: 2em;
+	margin-top: 2em;
 }
 
 .Lower_form button
 {
 	background-color: hsl(var(--main_color));
+	display: inline-block;
 	color: white;
+	font-weight: bold;
+	padding: 1em;
+	font-size: 1.05rem;
+	border-radius: 5px;
+	outline: none;
+	border: none;
 }
 
 .Lower_form a
 {
 	color: hsl(var(--main_color));
+	text-decoration: none;
+	font-weight: bold;
 }
