@@ -26,10 +26,7 @@ a, span
 	justify-content: space-between;
 	background-image: url(imgs/safar-safarov-koOdUvfGr4c-unsplash.jpg);
 	background-size: cover;
-	--logo_hue:224;
-	--logo_saturation:22%;
-	--logo_lightness:10%;
-	--logo_alpha:0.55;
+	--div_color: 224, 22%, 10%, 0.55;
 }
 
 .img-content > div
@@ -37,7 +34,7 @@ a, span
 	position: relative;
 	top: 10%;
 	display: flex;
-	background-color: hsl(var(--logo_hue), var(--logo_saturation), var(--logo_lightness), var(--logo_alpha));
+	background-color: hsl(var(--div_color));
 	justify-content: center;
 	align-items: center;
 	padding: 1rem;
@@ -83,4 +80,36 @@ a, span
 {
 	padding: 2.4em;
 	max-inline-size: 66ch;
+}
+
+fieldset
+{
+	display: flex;
+	gap: 50px;
+	padding: 1em;
+}
+
+fieldset > div
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.Lower_form
+{
+	--main_color: 188, 64%, 35%, 1;
+	position: relative;
+	left: 2rem;
+	top: 2rem;
+}
+
+.Lower_form button
+{
+	background-color: hsl(var(--main_color));
+	color: white;
+}
+
+.Lower_form a
+{
+	color: hsl(var(--main_color));
 }
