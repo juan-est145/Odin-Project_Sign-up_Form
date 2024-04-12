@@ -99,10 +99,18 @@ fieldset
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
+legend
+{
+	font-size: 1.30rem;
+	font-weight: bold;
+}
+
 .form-inputs
 {
 	display: flex;
 	flex-direction: column;
+	font-size: 0.95rem;
+	font-weight: 600;
 }
 
 .form-inputs input
