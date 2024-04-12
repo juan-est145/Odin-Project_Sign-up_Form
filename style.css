@@ -7,17 +7,12 @@ body
 
 .img-content
 {
-	width: 30vw;
-	height: 100%;
+	flex: 1;
+	background-image: url(imgs/safar-safarov-koOdUvfGr4c-unsplash.jpg);
+	background-size: cover;
 }
 
 .form-content
 {
-	width: 70vw;
-}
-
-.img-content > img
-{
-	width: 100%;
-	height: 100%;
+	flex: 2;
 }
