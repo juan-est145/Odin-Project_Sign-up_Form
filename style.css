@@ -60,9 +60,17 @@ a, span
 
 .img-content > footer
 {
+	--standard_font: 0.75rem;
+	--standard_width: 100%;
+	width: var(--standard_width);
+	width: clamp(0.5rem, var(--standard_width), 25rem);
 	align-self: center;
+	text-align: center;
+	padding: 1rem;
 	color: white;
-	font-size: 0.85rem;
+	font-size: var(--standard_font);
+	font-size: clamp(0.10rem, var(--standard_font), 1rem);
+	white-space: nowrap;
 }
 
 
