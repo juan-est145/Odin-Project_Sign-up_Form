@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Norse Bold";
+	src: url(fonts/Norse-Bold.otf);
+  }
+
 body
 {
 	margin: 0;
@@ -8,9 +13,40 @@ body
 .img-content
 {
 	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	background-image: url(imgs/safar-safarov-koOdUvfGr4c-unsplash.jpg);
 	background-size: cover;
+	--logo_hue:224;
+	--logo_saturation:22%;
+	--logo_lightness:10%;
+	--logo_alpha:0.55;
 }
+
+.img-content > div
+{
+	position: relative;
+	top: 10%;
+	display: flex;
+	background-color: hsl(var(--logo_hue), var(--logo_saturation), var(--logo_lightness), var(--logo_alpha));
+	justify-content: center;
+	align-items: center;
+}
+
+.img-content > div img
+{
+	width: 5em;
+}
+
+.img-content > div p
+{
+	color: white;
+	font-family: "Norse Bold", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 5rem;
+	margin: 0;
+}
+
 
 .form-content
 {
