@@ -78,3 +78,9 @@ a, span
 {
 	flex: 2;
 }
+
+.titles
+{
+	padding: 2.4em;
+	max-inline-size: 66ch;
+}
