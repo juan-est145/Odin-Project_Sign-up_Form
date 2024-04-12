@@ -109,9 +109,25 @@ fieldset
 	border: 1px solid  #E5E7EB;
 }
 
+.form-inputs input:focus
+{
+	background-color: #E5E7EB;
+}
+
+.form-inputs input:valid
+{
+	border-color: green;
+}
+
+.form-inputs input:invalid
+{
+	border-color: red;
+}
+
 .Lower_form
 {
 	--main_color: 188, 64%, 35%, 1;
+	--main_color_active: 188, 64%, 23%, 1;
 	margin-left: 2em;
 	margin-top: 2em;
 }
@@ -127,6 +143,11 @@ fieldset
 	border-radius: 5px;
 	outline: none;
 	border: none;
+}
+
+.Lower_form button:active
+{
+	background-color: hsl(var(--main_color_active));
 }
 
 .Lower_form a
