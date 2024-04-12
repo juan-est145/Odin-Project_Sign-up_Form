@@ -32,18 +32,21 @@ body
 	background-color: hsl(var(--logo_hue), var(--logo_saturation), var(--logo_lightness), var(--logo_alpha));
 	justify-content: center;
 	align-items: center;
+	padding: 1rem;
 }
 
 .img-content > div img
 {
-	width: 5em;
+	width: clamp(3rem, 5rem, 10vw);
+	/*width: 5em;*/
 }
 
 .img-content > div p
 {
 	color: white;
 	font-family: "Norse Bold", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 5rem;
+	/*font-size: 5rem;*/
+	font-size: clamp(3em, 5em, 10vw);
 	margin: 0;
 }
 
